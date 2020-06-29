@@ -1,0 +1,185 @@
+$textColor: #8890A1;
+$accentColor: #003DB1;
+$mainFont: 'Roboto', sans-serif;
+
+
+
+.header-page {
+    position: static;
+    width: 100%;
+    padding-top: 9px;
+    overflow: hidden;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    &__hr {
+      border: none; 
+      background-color: rgba(136, 144, 161, 0.2);
+      height: 1px; 
+    }
+    .logo {
+      width: 48px;
+      height: 48px;
+    }
+
+    &__start {
+      display: flex;
+      align-items: center;
+
+    }
+
+    &__end {
+      display: flex;
+      align-items: center;
+
+    }
+
+    &__nav {
+        margin-right: 15px;
+    }
+
+    &__ul {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+
+    &__li {
+      list-style: none;
+    }
+
+    &__link {
+        color: $textColor;
+        text-decoration: none;
+        display: block;
+        padding: 15px 25px;
+        font-family: $mainFont;
+        font-weight: 300;
+        font-size: 12px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+
+        transition: color 0.1s, font-size 0.2s;
+      
+    }
+
+    &__link:hover {
+        color: $accentColor;
+        font-size: 13px;
+    }
+
+    &__text {
+        position: relative;
+        transition: color 0.2s;
+    }
+
+    &__language {
+      display: block;
+      background: transparent;
+      border: none;
+      color:  $textColor;
+      font-size: 12px;
+      text-transform: uppercase;
+      font-family: $mainFont;
+      appearance: none;
+      cursor: pointer;
+      padding: 15px;
+
+      transition: color 0.2s, font-size 0.2s;
+
+    }
+    &__language:hover {
+      color: $accentColor;
+      font-size: 13px;
+
+    }
+
+
+    &__phone {
+        font-size: 14px;
+        padding: 15px 25px;
+        font-family: $mainFont;
+        font-weight: 400;
+        color: $textColor;
+        text-decoration: none;
+        cursor: pointer;
+        color: #FF5D39;;
+
+
+        transition: color 0.2s, font-size 0.2s;
+    }
+    &__phone:hover {
+      color: $accentColor;
+      font-size: 15px;
+    }
+
+
+    &__hamburger {
+        display: none;
+    }
+}
+.container {
+}
+.logo {
+}
+.phone {
+
+    &__item {
+    }
+}
+.btn-menu {
+
+    &__box {
+    }
+
+    &__inner {
+    }
+}
+
+.header-page.is-active .header-page__link {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  @media (max-width: 1200px) {
+    .header-page__link {
+      padding: 12px 30px;
+    }
+  
+    .header-page__phone {
+      padding: 7px 16px;
+    }
+    .header-page__language {
+      padding: 7px 16px;
+
+    }
+  }
+  
+  @media (max-width: 775px) {
+    .header-page__link {
+     display: none;
+    }
+    
+    .header-page__hamburger {
+    display: block;
+    position: absolute;
+    margin-left: 50px;
+    }
+  }
+  
+  @media (max-width: 370px) {
+    .header-page__phone{
+      display: none;
+    }
+    .header-page__language {
+      padding: 7px 16px;
+      font-size: 15px;
+    }
+  }
+
