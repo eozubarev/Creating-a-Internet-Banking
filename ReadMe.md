@@ -1,6 +1,6 @@
 ### Hello. My name is Evgeny Zubarev i am junior Frontend Developer. 
 
-#### This is my project Internet Banking (name of [BitBank](https://eozubarev.github.io/Creating-a-Internet-Banking/)).
+#### This is my project Internet Banking (name of [BitBank](https://eozubarev.github.io/Creating-a-Internet-Banking/BitBank)).
 
 * Technology stack:
  1. HTML
