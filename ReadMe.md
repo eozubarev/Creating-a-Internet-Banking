@@ -9,5 +9,5 @@
  1. GULP.js
  1. BEM - naming, Git, VS Code, Figma.
 
-![Image alt](https://github.com/eozubarev/Creating-a-Internet-Banking/raw/master/about/1.png)
-![Image alt](https://github.com/eozubarev/Creating-a-Internet-Banking/raw/master/about/2.png)
+![Image alt](https://b.radikal.ru/b38/2006/3b/f8a6936cccdf.jpg)
+![Image alt](https://a.radikal.ru/a33/2006/cc/1887c78057af.jpg)
