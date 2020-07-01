@@ -689,12 +689,16 @@ img {
   width: 100%;
 }
 
+.section-top__btn {
+  width: 250px;
+  height: auto;
+}
+
 .section-top__person {
   position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 3;
-  display: none;
+  left: 800px;
+  top: -58px;
+  z-index: 5;
 }
 
 .btn {
