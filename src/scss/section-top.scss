@@ -35,15 +35,15 @@
     }
 
     &__btn {
+      width: 250px;
+      height: auto;
     }
 
     &__person {
       position: absolute;
-      top: 0;
-      left: 0;
-      z-index: 3;
-      display: none;
-
+      left: 800px;
+      top: -58px;
+      z-index: 5;
     }
 }
 
