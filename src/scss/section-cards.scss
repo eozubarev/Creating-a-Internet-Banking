@@ -1,0 +1,34 @@
+.card {
+
+}
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-item {
+    max-width: 570px;
+    border: 1px solid rgba(136, 144, 161, 0.1);
+    width: 100%;
+    height: auto;
+
+    background-color: #ACACCD;
+}
+.card-item__name {
+}
+.card-item__title {
+}
+.card-item__subtitle {
+}
+.card__img {
+    width: 219px;
+    height: 414px;
+}
+.card-item__link {
+    background-color: $textColor;
+    height: 70px;
+}
+.card-link {
+}
+.card-img {
+}
